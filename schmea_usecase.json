@@ -1,0 +1,98 @@
+[
+  {
+    "name": "cid",
+    "mode": "NULLABLE",
+    "type": "INT",
+    "description": customer id,
+    },
+  {
+    "name": "UPC",
+    "mode": "NULLABLE",
+    "type": "LONG",
+    "description": user per count,
+    },
+  {
+    "name": "old",
+    "mode": "NULLABLE",
+    "type": "long",
+    "description": Order ID,
+    },
+  {
+    "name": "dt",
+    "mode": "NULLABLE",
+    "type": "date",
+    "description": item purchase date ,
+    },
+  {
+    "name": "r_dt",
+    "mode": "NULLABLE",
+    "type": "date",
+    "description": item received date,
+  },
+  {
+    "name": "prc",
+    "mode": "NULLABLE",
+    "type": "float",
+    "description": price of the item,
+  },
+  {
+    "name": "qty",
+    "mode": "NULLABLE",
+    "type": "int",
+    "description": quntity ,
+  },
+  {
+    "name": "amt",
+    "mode": "NULLABLE",
+    "type": "float",
+    "description": amount paid by customer,
+  },
+  {
+    "name": "r_qty",
+    "mode": "NULLABLE",
+    "type": "int",
+    "description": received quantity,
+  },
+  {
+    "name": "r_amt",
+    "mode": "NULLABLE",
+    "type": "float",
+    "description": received amount,
+  },
+  {
+    "name": "web_prod_id",
+    "mode": "NULLABLE",
+    "type": "int",
+    "description": web product id ,
+  },
+  {
+    "name": "GMM_DESC",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": General discription of item,
+  },
+  {
+    "name": "PARENT_MDSE_DIVN_DESC",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": item type,
+  },
+  {
+    "name": "Last_Modifies_Time",
+    "mode": "NULLABLE",
+    "type": "timestamp",
+    "description": last updated timestamp,
+  },
+  {
+    "name": "Country_code",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": country code,
+  },
+  {
+    "name": "ENTITY_CODE",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "description": entity code,
+  }
+]
